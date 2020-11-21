@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { DisplayContext } from '../context/displayContext.jsx';
+import axios from 'axios'
 
 const { RegisterWrapper, Input, Logo, Button, ButtonWrapper } = require('./registerStyles')
 function Register() {
@@ -9,22 +10,28 @@ function Register() {
     email: '',
     password: ''
   })
+
+  //state for current display
   const [display, setDisplay] = useContext(DisplayContext);
 
+
+  //update state for registration input data
   const handleRegisterUpdate = (e) => {
     let name = e.target.name;
     let value = e.target.value;
     setRegisterInfo((current) => ({ ...current, [name]: value }))
   }
 
+  //handle button click events
   const handelClick = (e) => {
     let name = e.target.name;
     if (name === 'cancel') {
       setDisplay((current) => ({ ...current, login: true, register: false }))
     }
     if (name === 'submit') {
-      console.log('Registration sent', registerInfo)
-
+      axios.post('http://localhost:5252/register', { params: registerInfo })
+        .then(({ data }) => { alert(emailVal(registerInfo.email)) })
+        .catch((err) => console.error(err))
     }
 
   }
@@ -42,6 +49,17 @@ function Register() {
       </ButtonWrapper>
     </RegisterWrapper>
   </>
+}
+
+
+const emailVal = (email) => {
+  const reg = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+  return reg.test(email);
+}
+
+const nameVal = (name) => {
+  const reg = /^[a-zA-Z]*$/;
+  return reg.test(name);
 }
 
 export default Register;
