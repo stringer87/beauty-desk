@@ -29,6 +29,7 @@ function Register() {
   //validation for email
   const emailVal = (email) => {
     //need to query database to verify if email is used already
+    //axios.get('http://localhost:5252/register/email')
     const reg = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
     let res = reg.test(email);
     setErrorMSGS((current)=> ({...current, email: !res}))
