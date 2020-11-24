@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { DisplayContext } from '../context/displayContext.jsx';
 import axios from 'axios'
 
-const { RegisterWrapper, Input, Logo, Button, ButtonWrapper, ErrorMSGFirst, ErrorMSGLast, ErrorMSGEmail, ErrorMSGPass} = require('./registerStyles')
+const { RegisterWrapper, Input, Logo, Button, ButtonWrapper, ErrorMSGFirst, ErrorMSGLast, ErrorMSGEmail, ErrorMSGPass } = require('./registerStyles')
 function Register() {
   const [registerInfo, setRegisterInfo] = useState({
     firstName: '',
@@ -14,7 +14,7 @@ function Register() {
     first: false,
     last: false,
     email: false,
-    pass:false
+    pass: false
   })
 
   //validation for password
@@ -22,35 +22,38 @@ function Register() {
     let res = false;
     const reg = /^[a-zA-Z0-9!"#\$%&'\(\)\*\+,-\.\/:;<=>\?@[\]\^_`\{\|}~]{8,16}$/;
     res = reg.test(pass);
-    setErrorMSGS((current) => ({...current, pass: !res}))
+    setErrorMSGS((current) => ({ ...current, pass: !res }))
     return res;
   }
-  
+
   //validation for email
   const emailVal = (email) => {
     //need to query database to verify if email is used already
     const reg = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
     let res = reg.test(email);
-    setErrorMSGS((current)=> ({...current, email: !res}))
-    return res;
+    setErrorMSGS((current) => ({ ...current, email: !res }))
+    // if (res) {
+
+    // }
+    return res
   }
-  
+
   //validation for names
   const nameVal = (name, pos) => {
     const reg = /^[a-zA-Z]*$/;
     let res = reg.test(name);
-    if(pos === 'first'){
-      if(name === ''){
-        setErrorMSGS((current) => ({...current, first: res}))
+    if (pos === 'first') {
+      if (name === '') {
+        setErrorMSGS((current) => ({ ...current, first: res }))
       } else {
-        setErrorMSGS((current) => ({...current, first: !res}))
+        setErrorMSGS((current) => ({ ...current, first: !res }))
       }
     }
-    if(pos === 'last'){
-      if(name === ''){
-        setErrorMSGS((current) => ({...current, last: res}))
+    if (pos === 'last') {
+      if (name === '') {
+        setErrorMSGS((current) => ({ ...current, last: res }))
       } else {
-        setErrorMSGS((current) => ({...current, last: !res}))
+        setErrorMSGS((current) => ({ ...current, last: !res }))
       }
     }
     return res;
@@ -76,33 +79,39 @@ function Register() {
     }
     if (name === 'submit') {
 
-      if(!passVall(registerInfo.password) || !nameVal(registerInfo.lastName, 'last') || !nameVal(registerInfo.firstName, 'first') ||!emailVal(registerInfo.email)){
+      if (!passVall(registerInfo.password) || !nameVal(registerInfo.lastName, 'last') || !nameVal(registerInfo.firstName, 'first') || !emailVal(registerInfo.email)) {
         validIn = false;
       }
 
-      if(validIn){
-        axios.post('http://localhost:5252/register', { params: registerInfo })
-          .then(({ data }) => { console.log('valid inputs recorded') })
-          .catch((err) => console.error(err))
-
-      } else{
-        alert('error')
+      if (validIn) {
+        axios.get('http:localhost:5252/register/email', { params: { email: registerInfo.email } })
+          .then(({ data }) => {
+            if (data) {
+              setErrorMSGS((current) => ({ ...current, email: true }))
+            } else {
+              axios.post('http://localhost:5252/register', { params: registerInfo })
+                .then(({ data }) => { console.log('valid inputs recorded') })
+                .catch((err) => console.error(err))
+            }
+          })
+          .catch((err) => {
+            console.log(err)
+          })
       }
     }
-
   }
 
   return <>
     <RegisterWrapper>
       <Logo src="./src/img/BeautyDeskv2.png" onChange={handleRegisterUpdate} />
       <Input name="firstName" placeholder="First Name" onChange={handleRegisterUpdate} />
-{errorMSGS.first && <ErrorMSGFirst>Must be a vaild first name</ErrorMSGFirst>}
+      {errorMSGS.first && <ErrorMSGFirst>Must be a vaild first name</ErrorMSGFirst>}
       <Input name="lastName" placeholder="Last Name" onChange={handleRegisterUpdate} />
-{ errorMSGS.last && <ErrorMSGLast>Must be a valid last name</ErrorMSGLast>}
+      {errorMSGS.last && <ErrorMSGLast>Must be a valid last name</ErrorMSGLast>}
       <Input name="email" placeholder="Email" onChange={handleRegisterUpdate} />
-{ errorMSGS.email &&<ErrorMSGEmail>Must be a valid email address</ErrorMSGEmail>}
+      {errorMSGS.email && <ErrorMSGEmail>Must be a valid email address</ErrorMSGEmail>}
       <Input name="password" placeholder="Password" type="password" onChange={handleRegisterUpdate} />
-{errorMSGS.pass &&<ErrorMSGPass>Must be a valid password</ErrorMSGPass>}
+      {errorMSGS.pass && <ErrorMSGPass>Must be a valid password</ErrorMSGPass>}
       <ButtonWrapper>
         <Button name="cancel" onClick={handelClick}>Cancel</Button>
         <Button name="submit" onClick={handelClick}>Submit</Button>
