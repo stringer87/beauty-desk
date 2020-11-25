@@ -1,22 +1,30 @@
 import React, { useState, useContext } from 'react';
 import { DisplayContext } from '../context/displayContext.jsx';
+import { UserContext } from '../context/userContext.jsx';
 import axios from 'axios'
 
 const { Password, Name, Email } = require('../validation/')
 const { RegisterWrapper, Input, Logo, Button, ButtonWrapper, ErrorMSGFirst, ErrorMSGLast, ErrorMSGEmail, ErrorMSGPass } = require('./registerStyles')
 function Register() {
+  //state for user input
   const [registerInfo, setRegisterInfo] = useState({
     firstName: '',
     lastName: '',
     email: '',
     password: ''
   })
+  //state for error message flags
   const [errorMSGS, setErrorMSGS] = useState({
     first: false,
     last: false,
     email: false,
     pass: false
   })
+
+  //state for current display
+  const [display, setDisplay] = useContext(DisplayContext);
+  //state for userInfo
+  const [user, setUser] = useContext(UserContext)
 
   //validation for password
   const passVal = (pass) => {
@@ -52,10 +60,6 @@ function Register() {
     return res;
   }
 
-  //state for current display
-  const [display, setDisplay] = useContext(DisplayContext);
-
-
   //update state for registration input data
   const handleRegisterUpdate = (e) => {
     let name = e.target.name;
@@ -83,7 +87,10 @@ function Register() {
               setErrorMSGS((current) => ({ ...current, email: true }))
             } else {
               axios.post('http://localhost:5252/register', { params: registerInfo })
-                .then(({ data }) => { console.log('valid inputs recorded') })
+                .then(({ data }) => {
+                  setUser(data);
+                  setDisplay((current) => ({ ...current, register: false, application: true }))
+                })
                 .catch((err) => console.error(err))
             }
           })

@@ -6,6 +6,7 @@ function createWindow() {
     width: 1200,
     height: 900,
     center: true,
+    resizable: false,
     webPreferences: {
       nodeIntegration: true,
       worldSafeExecutionJavaScript: true,

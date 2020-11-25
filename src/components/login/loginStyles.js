@@ -11,7 +11,7 @@ bottom: 0;
 right: 0;
 border-radius: 15px;
 padding: 10px;
-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.56);
+box-shadow: 0px 0px 20px 0px #133B66;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -45,12 +45,12 @@ margin-bottom:5px;
 export const ButtonWrapper = styled.div`
 display:flex;
 justify-content: center;
-margin: 5px;
+margin: 10px;
 `;
 
 
 export const ErrorMSG = styled.p`
 position: absolute;
 color: red;
-transform: translate(8px, -28px);
+transform: translate(0px, -30px);
 `;

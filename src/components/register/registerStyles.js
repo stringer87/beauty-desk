@@ -11,7 +11,7 @@ bottom: 0;
 right: 0;
 border-radius: 15px;
 padding: 10px;
-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.56);
+box-shadow: 0px 0px 20px 0px #133B66;
 display: flex;
 flex-direction: column;
 justify-content: center;
