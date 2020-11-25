@@ -2,13 +2,15 @@ import React, { useState, useContext } from 'react';
 import { DisplayContext } from '../context/displayContext.jsx';
 import axios from 'axios';
 
-const { LoginWrapper, Input, Logo, Form, Button, ButtonWrapper } = require('./loginStyles');
+const { Email, Password } = require('../validation');
+const { LoginWrapper, Input, Logo, Form, Button, ButtonWrapper, ErrorMSG } = require('./loginStyles');
 
 function Login() {
   const [loginInfo, setLoginInfo] = useState({
     email: '', password: ''
   })
   const [display, setDisplay] = useContext(DisplayContext);
+  const [errMSG, setErrMSG] = useState(false);
 
   const handelUpdate = (e) => {
     let name = e.target.name;
@@ -17,9 +19,21 @@ function Login() {
   }
 
   const handelLogin = () => {
-    axios.get('http://localhost:5252/login', { params: loginInfo })
-      .then(({ data }) => alert(data))
-      .catch((err) => console.error(err))
+    if (loginInfo.email && loginInfo.password) {
+      if (Email(loginInfo.email) && Password(loginInfo.password)) {
+        axios.get('http://localhost:5252/login', { params: loginInfo })
+          .then(({ data }) => {
+            if (data) {
+              setDisplay((current) => ({ ...current, login: false, welcome: true }))
+            } else {
+              setErrMSG(true);
+            }
+          })
+          .catch((err) => console.error(err))
+      } else {
+        setErrMSG(true)
+      }
+    }
   }
 
   const handleRegister = () => {
@@ -34,6 +48,7 @@ function Login() {
       <ButtonWrapper>
         <Button onClick={handelLogin}>Login</Button>
         <Button onClick={handleRegister}>Register</Button>
+        {errMSG && <ErrorMSG>Login or password incorrect</ErrorMSG>}
       </ButtonWrapper>
     </LoginWrapper >
   </>

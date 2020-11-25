@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react';
 import { DisplayContext } from '../context/displayContext.jsx';
 import axios from 'axios'
 
+const { Password, Name, Email } = require('../validation/')
 const { RegisterWrapper, Input, Logo, Button, ButtonWrapper, ErrorMSGFirst, ErrorMSGLast, ErrorMSGEmail, ErrorMSGPass } = require('./registerStyles')
 function Register() {
   const [registerInfo, setRegisterInfo] = useState({
@@ -18,30 +19,22 @@ function Register() {
   })
 
   //validation for password
-  const passVall = (pass) => {
-    let res = false;
-    const reg = /^[a-zA-Z0-9!"#\$%&'\(\)\*\+,-\.\/:;<=>\?@[\]\^_`\{\|}~]{8,16}$/;
-    res = reg.test(pass);
+  const passVal = (pass) => {
+    let res = Password(pass)
     setErrorMSGS((current) => ({ ...current, pass: !res }))
     return res;
   }
 
   //validation for email
   const emailVal = (email) => {
-    //need to query database to verify if email is used already
-    const reg = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
-    let res = reg.test(email);
+    let res = Email(email);
     setErrorMSGS((current) => ({ ...current, email: !res }))
-    // if (res) {
-
-    // }
     return res
   }
 
   //validation for names
   const nameVal = (name, pos) => {
-    const reg = /^[a-zA-Z]*$/;
-    let res = reg.test(name);
+    let res = Name(name)
     if (pos === 'first') {
       if (name === '') {
         setErrorMSGS((current) => ({ ...current, first: res }))
@@ -79,7 +72,7 @@ function Register() {
     }
     if (name === 'submit') {
 
-      if (!passVall(registerInfo.password) || !nameVal(registerInfo.lastName, 'last') || !nameVal(registerInfo.firstName, 'first') || !emailVal(registerInfo.email)) {
+      if (!passVal(registerInfo.password) || !nameVal(registerInfo.lastName, 'last') || !nameVal(registerInfo.firstName, 'first') || !emailVal(registerInfo.email)) {
         validIn = false;
       }
 
