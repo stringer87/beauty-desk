@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import Login from './login/Login.jsx'
 import Register from './register/Register.jsx'
 import Application from './application/Application.jsx'
-import { DisplayProvider, DisplayContext } from './context/displayContext.jsx'
+import { DisplayContext } from './context/displayContext.jsx'
 function App() {
   const [display, setDisplay] = useContext(DisplayContext);
 

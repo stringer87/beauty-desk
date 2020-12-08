@@ -5,9 +5,9 @@ export const DisplayContext = createContext();
 
 export const DisplayProvider = (props) => {
   const [display, setDisplay] = useState({
-    login: true,
+    login: false,
     register: false,
-    application: false,
+    application: true,
   })
 
   return (

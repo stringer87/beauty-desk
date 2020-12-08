@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { UserContext } from '../context/userContext.jsx';
+import { MainViewProvider } from '../context/mainViewContext.jsx'
 import Banner from './banner/Banner.jsx'
 import Menu from './menu/Menu.jsx'
 import MainView from './mainView/MainView.jsx'
@@ -16,8 +17,10 @@ function Application() {
   return <>
     <Banner />
     <ViewWrapper>
-      <Menu />
-      <MainView />
+      <MainViewProvider>
+        <Menu />
+        <MainView />
+      </MainViewProvider>
     </ViewWrapper>
   </>
 }
