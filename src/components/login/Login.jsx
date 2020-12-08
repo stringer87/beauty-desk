@@ -53,12 +53,12 @@ function Login() {
 
   return <>
     < LoginWrapper >
-      <Logo src="./src/img/BeautyDeskv2.png" />
-      <Input name="email" placeholder="email" onChange={handelUpdate} />
-      <Input name="password" placeholder="password" type="password" onChange={handelUpdate} />
+      <Logo id={"logo"} src="./src/img/BeautyDeskv2.png" />
+      <Input id={"nameInput"} name="email" placeholder="email" onChange={handelUpdate} />
+      <Input id={"passwordInput"} name="password" placeholder="password" type="password" onChange={handelUpdate} />
       <ButtonWrapper>
-        <Button onClick={handelLogin}>Login</Button>
-        <Button onClick={handleRegister}>Register</Button>
+        <Button id={"login"} onClick={handelLogin}>Login</Button>
+        <Button id={"register"} onClick={handleRegister}>Register</Button>
         {errMSG && <ErrorMSG>Login or password incorrect</ErrorMSG>}
       </ButtonWrapper>
     </LoginWrapper >

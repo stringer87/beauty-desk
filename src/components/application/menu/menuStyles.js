@@ -20,7 +20,8 @@ export const Button = styled.button`
     padding: 8px;
   }
     width: 48px;
-    /* padding: 8px; */
+    height: 35px;
+    padding: 5px;
     box-shadow: 0px 0px 5px 0px #133B66;
     background-color: #FFF;
     color: #133B66;

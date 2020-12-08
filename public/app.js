@@ -89,6 +89,7 @@ eval("module.exports = __webpack_require__(/*! ./lib/axios */ \"./node_modules/a
   \************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 12:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -102,6 +103,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*****************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 50:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -115,6 +117,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./utils */ \"./node_modules/axios/
   \*************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 19:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -128,6 +131,7 @@ eval("\n\n/**\n * A `Cancel` is an object that is thrown when an operation is ca
   \******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 57:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -141,6 +145,7 @@ eval("\n\nvar Cancel = __webpack_require__(/*! ./Cancel */ \"./node_modules/axio
   \***************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -154,6 +159,7 @@ eval("\n\nmodule.exports = function isCancel(value) {\n  return !!(value && valu
   \**********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 95:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -167,6 +173,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \***********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 52:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -180,6 +187,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 15:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -193,6 +201,7 @@ eval("\n\nvar isAbsoluteURL = __webpack_require__(/*! ../helpers/isAbsoluteURL *
   \****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 15:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -206,6 +215,7 @@ eval("\n\nvar enhanceError = __webpack_require__(/*! ./enhanceError */ \"./node_
   \********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 23:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -219,6 +229,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -232,6 +243,7 @@ eval("\n\n/**\n * Update an Error with the specified config, error code, and res
   \****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -245,6 +257,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ../utils */ \"./node_modules/axios
   \***********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 12:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -258,6 +271,7 @@ eval("\n\nvar createError = __webpack_require__(/*! ./createError */ \"./node_mo
   \******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -271,6 +285,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 98:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -284,6 +299,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./utils */ \"./node_modules/axios/
   \************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -297,6 +313,7 @@ eval("\n\nmodule.exports = function bind(fn, thisArg) {\n  return function wrap(
   \****************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 22:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -310,6 +327,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*******************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 10:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -323,6 +341,7 @@ eval("\n\n/**\n * Creates a new URL by combining the specified URLs\n *\n * @par
   \***************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -336,6 +355,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \*********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 9:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -349,6 +369,7 @@ eval("\n\n/**\n * Determines whether the specified URL is absolute\n *\n * @para
   \***********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -362,6 +383,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \***************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -375,6 +397,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ../utils */ \"./node_modules/axios
   \********************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 27:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -388,6 +411,7 @@ eval("\n\nvar utils = __webpack_require__(/*! ./../utils */ \"./node_modules/axi
   \**************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 23:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -401,6 +425,7 @@ eval("\n\n/**\n * Syntactic sugar for invoking a function and expanding an array
   \*****************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 328:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -510,7 +535,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n\n\nvar _require = __webpack_require__(/*! ./menuStyles */ \"./src/components/application/menu/menuStyles.js\"),\n    MenuWrapper = _require.MenuWrapper,\n    Button = _require.Button,\n    Icon = _require.Icon;\n\nfunction Menu() {\n  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(window.innerWidth),\n      _useState2 = _slicedToArray(_useState, 2),\n      width = _useState2[0],\n      setWidth = _useState2[1];\n\n  var handelResize = function handelResize() {\n    setWidth(window.innerWidth);\n  };\n\n  window.addEventListener('resize', handelResize);\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(MenuWrapper, null, width < 950 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Icon, {\n    src: \"./src/img/menuIcons/client.png\"\n  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, \"Clients\"), width < 950 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Icon, {\n    src: \"./src/img/menuIcons/pending.png\"\n  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, \"Pending Clients\"), width < 950 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Icon, {\n    src: \"./src/img/menuIcons/reviews.png\"\n  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, \"Client Reviews\"), width < 950 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Icon, {\n    src: \"./src/img/menuIcons/calendar.png\"\n  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, \"Calendar\"), width < 950 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Icon, {\n    src: \"src/img/menuIcons/messages.png\"\n  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, \"Messages\"));\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Menu);\n\n//# sourceURL=webpack://beauty-desk/./src/components/application/menu/Menu.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n\n\nvar _require = __webpack_require__(/*! ./menuStyles */ \"./src/components/application/menu/menuStyles.js\"),\n    MenuWrapper = _require.MenuWrapper,\n    Button = _require.Button,\n    Icon = _require.Icon;\n\nfunction Menu() {\n  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(window.innerWidth),\n      _useState2 = _slicedToArray(_useState, 2),\n      width = _useState2[0],\n      setWidth = _useState2[1];\n\n  var handelResize = function handelResize() {\n    setWidth(window.innerWidth);\n  }; // useEffect(() => {\n  //   window.resizeTo(200, 200)\n  // }, [])\n\n\n  window.addEventListener('resize', handelResize);\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(MenuWrapper, null, width < 950 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Icon, {\n    src: \"./src/img/menuIcons/client.png\"\n  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, \"Clients\"), width < 950 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Icon, {\n    src: \"./src/img/menuIcons/pending.png\"\n  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, \"Pending Clients\"), width < 950 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Icon, {\n    src: \"./src/img/menuIcons/reviews.png\"\n  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, \"Client Reviews\"), width < 950 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Icon, {\n    src: \"./src/img/menuIcons/calendar.png\"\n  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, \"Calendar\"), width < 950 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Icon, {\n    src: \"src/img/menuIcons/messages.png\"\n  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, null, \"Messages\"));\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Menu);\n\n//# sourceURL=webpack://beauty-desk/./src/components/application/menu/Menu.jsx?");
 
 /***/ }),
 
@@ -527,7 +552,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"MenuWrapper\": () => /* binding */ MenuWrapper,\n/* harmony export */   \"Button\": () => /* binding */ Button,\n/* harmony export */   \"Icon\": () => /* binding */ Icon\n/* harmony export */ });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\nfunction _templateObject3() {\n  var data = _taggedTemplateLiteral([\"\\n  width: 20px;\\n  height: 20px;\\n\"]);\n\n  _templateObject3 = function _templateObject3() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _templateObject2() {\n  var data = _taggedTemplateLiteral([\"\\n  @media screen and (min-width: 950px){\\n    width: 198px;\\n    padding: 8px;\\n  }\\n    width: 48px;\\n    /* padding: 8px; */\\n    box-shadow: 0px 0px 5px 0px #133B66;\\n    background-color: #FFF;\\n    color: #133B66;\\n    border: none;\\n    :hover{\\n      background-color: #8DCAFF;\\n      color: #FFF;\\n      z-index: 200;\\n    }\\n\"]);\n\n  _templateObject2 = function _templateObject2() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _templateObject() {\n  var data = _taggedTemplateLiteral([\"\\n  @media screen and (min-width: 950px){\\n    width: 200px;\\n  }\\n    width: 50px;\\n    height: calc(100% - 215px);\\n    position: absolute;\\n    margin-top: 2px;\\n    z-index: auto;\\n    box-shadow: 0px 0px 5px 0px #133B66;\\n    display:flex;\\n    flex-direction: column;\\n\"]);\n\n  _templateObject = function _templateObject() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\nvar MenuWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0__.default.div(_templateObject());\nvar Button = styled_components__WEBPACK_IMPORTED_MODULE_0__.default.button(_templateObject2());\nvar Icon = styled_components__WEBPACK_IMPORTED_MODULE_0__.default.img(_templateObject3());\n\n//# sourceURL=webpack://beauty-desk/./src/components/application/menu/menuStyles.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"MenuWrapper\": () => /* binding */ MenuWrapper,\n/* harmony export */   \"Button\": () => /* binding */ Button,\n/* harmony export */   \"Icon\": () => /* binding */ Icon\n/* harmony export */ });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\nfunction _templateObject3() {\n  var data = _taggedTemplateLiteral([\"\\n  width: 20px;\\n  height: 20px;\\n\"]);\n\n  _templateObject3 = function _templateObject3() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _templateObject2() {\n  var data = _taggedTemplateLiteral([\"\\n  @media screen and (min-width: 950px){\\n    width: 198px;\\n    padding: 8px;\\n  }\\n    width: 48px;\\n    height: 35px;\\n    padding: 5px;\\n    box-shadow: 0px 0px 5px 0px #133B66;\\n    background-color: #FFF;\\n    color: #133B66;\\n    border: none;\\n    :hover{\\n      background-color: #8DCAFF;\\n      color: #FFF;\\n      z-index: 200;\\n    }\\n\"]);\n\n  _templateObject2 = function _templateObject2() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _templateObject() {\n  var data = _taggedTemplateLiteral([\"\\n  @media screen and (min-width: 950px){\\n    width: 200px;\\n  }\\n    width: 50px;\\n    height: calc(100% - 215px);\\n    position: absolute;\\n    margin-top: 2px;\\n    z-index: auto;\\n    box-shadow: 0px 0px 5px 0px #133B66;\\n    display:flex;\\n    flex-direction: column;\\n\"]);\n\n  _templateObject = function _templateObject() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\nvar MenuWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0__.default.div(_templateObject());\nvar Button = styled_components__WEBPACK_IMPORTED_MODULE_0__.default.button(_templateObject2());\nvar Icon = styled_components__WEBPACK_IMPORTED_MODULE_0__.default.img(_templateObject3());\n\n//# sourceURL=webpack://beauty-desk/./src/components/application/menu/menuStyles.js?");
 
 /***/ }),
 
@@ -543,7 +568,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"DisplayContext\": () => /* binding */ DisplayContext,\n/* harmony export */   \"DisplayProvider\": () => /* binding */ DisplayProvider\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n\nvar DisplayContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)();\nvar DisplayProvider = function DisplayProvider(props) {\n  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({\n    login: false,\n    register: false,\n    application: true\n  }),\n      _useState2 = _slicedToArray(_useState, 2),\n      display = _useState2[0],\n      setDisplay = _useState2[1];\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(DisplayContext.Provider, {\n    value: [display, setDisplay]\n  }, props.children);\n};\n\n//# sourceURL=webpack://beauty-desk/./src/components/context/displayContext.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"DisplayContext\": () => /* binding */ DisplayContext,\n/* harmony export */   \"DisplayProvider\": () => /* binding */ DisplayProvider\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n\nvar DisplayContext = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)();\nvar DisplayProvider = function DisplayProvider(props) {\n  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({\n    login: true,\n    register: false,\n    application: false\n  }),\n      _useState2 = _slicedToArray(_useState, 2),\n      display = _useState2[0],\n      setDisplay = _useState2[1];\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(DisplayContext.Provider, {\n    value: [display, setDisplay]\n  }, props.children);\n};\n\n//# sourceURL=webpack://beauty-desk/./src/components/context/displayContext.jsx?");
 
 /***/ }),
 
@@ -574,7 +599,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _context_displayContext_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../context/displayContext.jsx */ \"./src/components/context/displayContext.jsx\");\n/* harmony import */ var _context_userContext_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../context/userContext.jsx */ \"./src/components/context/userContext.jsx\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ \"./node_modules/axios/index.js\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);\nfunction ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n\n\n\n\n\nvar _require = __webpack_require__(/*! ../validation */ \"./src/components/validation/index.js\"),\n    Email = _require.Email,\n    Password = _require.Password;\n\nvar _require2 = __webpack_require__(/*! ./loginStyles */ \"./src/components/login/loginStyles.js\"),\n    LoginWrapper = _require2.LoginWrapper,\n    Input = _require2.Input,\n    Logo = _require2.Logo,\n    Form = _require2.Form,\n    Button = _require2.Button,\n    ButtonWrapper = _require2.ButtonWrapper,\n    ErrorMSG = _require2.ErrorMSG;\n\nfunction Login() {\n  //state for user input\n  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({\n    email: '',\n    password: ''\n  }),\n      _useState2 = _slicedToArray(_useState, 2),\n      loginInfo = _useState2[0],\n      setLoginInfo = _useState2[1]; //get state for display\n\n\n  var _useContext = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_displayContext_jsx__WEBPACK_IMPORTED_MODULE_1__.DisplayContext),\n      _useContext2 = _slicedToArray(_useContext, 2),\n      display = _useContext2[0],\n      setDisplay = _useContext2[1]; //get state for userInfo\n\n\n  var _useContext3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_userContext_jsx__WEBPACK_IMPORTED_MODULE_2__.UserContext),\n      _useContext4 = _slicedToArray(_useContext3, 2),\n      user = _useContext4[0],\n      setUser = _useContext4[1]; //state fore error message\n\n\n  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),\n      _useState4 = _slicedToArray(_useState3, 2),\n      errMSG = _useState4[0],\n      setErrMSG = _useState4[1]; //update user input\n\n\n  var handelUpdate = function handelUpdate(e) {\n    var name = e.target.name;\n    var value = e.target.value;\n    setLoginInfo(function (current) {\n      return _objectSpread(_objectSpread({}, current), {}, _defineProperty({}, name, value));\n    });\n  }; //handle Login request\n\n\n  var handelLogin = function handelLogin() {\n    if (loginInfo.email && loginInfo.password) {\n      if (Email(loginInfo.email) && Password(loginInfo.password)) {\n        axios__WEBPACK_IMPORTED_MODULE_3___default().get('http://localhost:5252/login', {\n          params: loginInfo\n        }).then(function (_ref) {\n          var data = _ref.data;\n\n          if (data.equal) {\n            setUser(data.userInfo);\n            setDisplay(function (current) {\n              return _objectSpread(_objectSpread({}, current), {}, {\n                login: false,\n                application: true\n              });\n            });\n          } else {\n            setErrMSG(true);\n          }\n        })[\"catch\"](function (err) {\n          return console.error(err);\n        });\n      } else {\n        setErrMSG(true);\n      }\n    }\n  }; //handle the register button\n\n\n  var handleRegister = function handleRegister() {\n    setDisplay(function (current) {\n      return _objectSpread(_objectSpread({}, current), {}, {\n        login: false,\n        register: true\n      });\n    });\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(LoginWrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Logo, {\n    src: \"./src/img/BeautyDeskv2.png\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Input, {\n    name: \"email\",\n    placeholder: \"email\",\n    onChange: handelUpdate\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Input, {\n    name: \"password\",\n    placeholder: \"password\",\n    type: \"password\",\n    onChange: handelUpdate\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(ButtonWrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, {\n    onClick: handelLogin\n  }, \"Login\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, {\n    onClick: handleRegister\n  }, \"Register\"), errMSG && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(ErrorMSG, null, \"Login or password incorrect\"))));\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Login);\n\n//# sourceURL=webpack://beauty-desk/./src/components/login/Login.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _context_displayContext_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../context/displayContext.jsx */ \"./src/components/context/displayContext.jsx\");\n/* harmony import */ var _context_userContext_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../context/userContext.jsx */ \"./src/components/context/userContext.jsx\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ \"./node_modules/axios/index.js\");\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);\nfunction ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n\n\n\n\n\nvar _require = __webpack_require__(/*! ../validation */ \"./src/components/validation/index.js\"),\n    Email = _require.Email,\n    Password = _require.Password;\n\nvar _require2 = __webpack_require__(/*! ./loginStyles */ \"./src/components/login/loginStyles.js\"),\n    LoginWrapper = _require2.LoginWrapper,\n    Input = _require2.Input,\n    Logo = _require2.Logo,\n    Form = _require2.Form,\n    Button = _require2.Button,\n    ButtonWrapper = _require2.ButtonWrapper,\n    ErrorMSG = _require2.ErrorMSG;\n\nfunction Login() {\n  //state for user input\n  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({\n    email: '',\n    password: ''\n  }),\n      _useState2 = _slicedToArray(_useState, 2),\n      loginInfo = _useState2[0],\n      setLoginInfo = _useState2[1]; //get state for display\n\n\n  var _useContext = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_displayContext_jsx__WEBPACK_IMPORTED_MODULE_1__.DisplayContext),\n      _useContext2 = _slicedToArray(_useContext, 2),\n      display = _useContext2[0],\n      setDisplay = _useContext2[1]; //get state for userInfo\n\n\n  var _useContext3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_userContext_jsx__WEBPACK_IMPORTED_MODULE_2__.UserContext),\n      _useContext4 = _slicedToArray(_useContext3, 2),\n      user = _useContext4[0],\n      setUser = _useContext4[1]; //state fore error message\n\n\n  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),\n      _useState4 = _slicedToArray(_useState3, 2),\n      errMSG = _useState4[0],\n      setErrMSG = _useState4[1]; //update user input\n\n\n  var handelUpdate = function handelUpdate(e) {\n    var name = e.target.name;\n    var value = e.target.value;\n    setLoginInfo(function (current) {\n      return _objectSpread(_objectSpread({}, current), {}, _defineProperty({}, name, value));\n    });\n  }; //handle Login request\n\n\n  var handelLogin = function handelLogin() {\n    if (loginInfo.email && loginInfo.password) {\n      if (Email(loginInfo.email) && Password(loginInfo.password)) {\n        axios__WEBPACK_IMPORTED_MODULE_3___default().get('http://localhost:5252/login', {\n          params: loginInfo\n        }).then(function (_ref) {\n          var data = _ref.data;\n\n          if (data.equal) {\n            setUser(data.userInfo);\n            setDisplay(function (current) {\n              return _objectSpread(_objectSpread({}, current), {}, {\n                login: false,\n                application: true\n              });\n            });\n          } else {\n            setErrMSG(true);\n          }\n        })[\"catch\"](function (err) {\n          return console.error(err);\n        });\n      } else {\n        setErrMSG(true);\n      }\n    }\n  }; //handle the register button\n\n\n  var handleRegister = function handleRegister() {\n    setDisplay(function (current) {\n      return _objectSpread(_objectSpread({}, current), {}, {\n        login: false,\n        register: true\n      });\n    });\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(LoginWrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Logo, {\n    id: \"logo\",\n    src: \"./src/img/BeautyDeskv2.png\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Input, {\n    id: \"nameInput\",\n    name: \"email\",\n    placeholder: \"email\",\n    onChange: handelUpdate\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Input, {\n    id: \"passwordInput\",\n    name: \"password\",\n    placeholder: \"password\",\n    type: \"password\",\n    onChange: handelUpdate\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(ButtonWrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, {\n    id: \"login\",\n    onClick: handelLogin\n  }, \"Login\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Button, {\n    id: \"register\",\n    onClick: handleRegister\n  }, \"Register\"), errMSG && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(ErrorMSG, null, \"Login or password incorrect\"))));\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Login);\n\n//# sourceURL=webpack://beauty-desk/./src/components/login/Login.jsx?");
 
 /***/ }),
 
@@ -649,7 +674,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Password\": () => /* binding */ Password,\n/* harmony export */   \"Name\": () => /* binding */ Name,\n/* harmony export */   \"Email\": () => /* binding */ Email\n/* harmony export */ });\nfunction Password(password) {\n  var reg = /^[a-zA-Z0-9!\"#\\$%&'\\(\\)\\*\\+,-\\.\\/:;<=>\\?@[\\]\\^_`\\{\\|}~]{8,16}$/;\n  return reg.test(password);\n}\nfunction Name(name) {\n  var reg = /^[a-zA-Z]*$/;\n  return reg.test(name);\n}\nfunction Email(email) {\n  var reg = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$/;\n  return reg.test(email);\n}\n\n//# sourceURL=webpack://beauty-desk/./src/components/validation/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Password\": () => /* binding */ Password,\n/* harmony export */   \"Name\": () => /* binding */ Name,\n/* harmony export */   \"Email\": () => /* binding */ Email\n/* harmony export */ });\nfunction Password(password) {\n  var reg = /(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\\W]).{6,20}/;\n  return reg.test(password);\n}\nfunction Name(name) {\n  var reg = /^[a-zA-Z]*$/;\n  return reg.test(name);\n}\nfunction Email(email) {\n  var reg = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$/;\n  return reg.test(email);\n}\n\n//# sourceURL=webpack://beauty-desk/./src/components/validation/index.js?");
 
 /***/ }),
 
@@ -673,6 +698,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
   \**********************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 103:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -686,6 +712,7 @@ eval("\n\nvar reactIs = __webpack_require__(/*! react-is */ \"./node_modules/rea
   \*********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 65:0-14 */
 /***/ ((module) => {
 
 "use strict";
@@ -963,6 +990,16 @@ eval("/** @license React v0.20.1\n * scheduler-tracing.development.js\n *\n * Co
 /*! export unstable_wrapCallback [provided] [no usage info] [missing usage info prevents renaming] */
 /*! other exports [not provided] [no usage info] */
 /*! runtime requirements: __webpack_exports__ */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 52:26-46 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 125:13-33 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 149:24-44 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 193:15-35 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 548:28-48 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 565:25-45 */
+/*! CommonJS bailout: exports.unstable_shouldYield(...) prevents optimization as exports is passed as call context at 578:74-102 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 591:20-40 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 695:20-40 */
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 804:24-44 */
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -1032,6 +1069,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
   \********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
 /***/ ((module) => {
 
 eval("//\n\nmodule.exports = function shallowEqual(objA, objB, compare, compareContext) {\n  var ret = compare ? compare.call(compareContext, objA, objB) : void 0;\n\n  if (ret !== void 0) {\n    return !!ret;\n  }\n\n  if (objA === objB) {\n    return true;\n  }\n\n  if (typeof objA !== \"object\" || !objA || typeof objB !== \"object\" || !objB) {\n    return false;\n  }\n\n  var keysA = Object.keys(objA);\n  var keysB = Object.keys(objB);\n\n  if (keysA.length !== keysB.length) {\n    return false;\n  }\n\n  var bHasOwnProperty = Object.prototype.hasOwnProperty.bind(objB);\n\n  // Test for A's keys different from B.\n  for (var idx = 0; idx < keysA.length; idx++) {\n    var key = keysA[idx];\n\n    if (!bHasOwnProperty(key)) {\n      return false;\n    }\n\n    var valueA = objA[key];\n    var valueB = objB[key];\n\n    ret = compare ? compare.call(compareContext, valueA, valueB, key) : void 0;\n\n    if (ret === false || (ret === void 0 && valueA !== valueB)) {\n      return false;\n    }\n  }\n\n  return true;\n};\n\n\n//# sourceURL=webpack://beauty-desk/./node_modules/shallowequal/index.js?");

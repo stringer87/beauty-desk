@@ -1,5 +1,5 @@
 export function Password(password) {
-  const reg = /^[a-zA-Z0-9!"#\$%&'\(\)\*\+,-\.\/:;<=>\?@[\]\^_`\{\|}~]{8,16}$/;
+  const reg = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{6,20}/;
   return reg.test(password);
 }
 
