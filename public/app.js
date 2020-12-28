@@ -557,7 +557,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\n\nfunction Clients() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, \"test Clients\");\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Clients);\n\n//# sourceURL=webpack://beauty-desk/./src/components/application/menuOptions/clients/clients.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\n\nvar _require = __webpack_require__(/*! ./clientsStyles */ \"./src/components/application/menuOptions/clients/clientsStyles.js\"),\n    SearchBar = _require.SearchBar,\n    SearchBarWrapper = _require.SearchBarWrapper;\n\nfunction Clients() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(SearchBarWrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(SearchBar, null)));\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Clients);\n\n//# sourceURL=webpack://beauty-desk/./src/components/application/menuOptions/clients/clients.jsx?");
+
+/***/ }),
+
+/***/ "./src/components/application/menuOptions/clients/clientsStyles.js":
+/*!*************************************************************************!*\
+  !*** ./src/components/application/menuOptions/clients/clientsStyles.js ***!
+  \*************************************************************************/
+/*! namespace exports */
+/*! export SearchBar [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export SearchBarWrapper [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"SearchBar\": () => /* binding */ SearchBar,\n/* harmony export */   \"SearchBarWrapper\": () => /* binding */ SearchBarWrapper\n/* harmony export */ });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\nfunction _templateObject2() {\n  var data = _taggedTemplateLiteral([\"\\n  margin: auto;\\n  display: flex;\\n  justify-content: center;\\n  width: 300px;\\n  height: 20px;\\n  @media screen and (min-width: 950px){\\n  width: 600px;\\n}\\n\"]);\n\n  _templateObject2 = function _templateObject2() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _templateObject() {\n  var data = _taggedTemplateLiteral([\"\\n  padding: 8px;\\n  width: 300px;\\n  height: 20px;\\n@media screen and (min-width: 950px){\\n  width: 600px;\\n}\\n\"]);\n\n  _templateObject = function _templateObject() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\n\nvar SearchBar = styled_components__WEBPACK_IMPORTED_MODULE_0__.default.input(_templateObject());\nvar SearchBarWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0__.default.div(_templateObject2());\n\n//# sourceURL=webpack://beauty-desk/./src/components/application/menuOptions/clients/clientsStyles.js?");
 
 /***/ }),
 
