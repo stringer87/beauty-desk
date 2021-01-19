@@ -1,20 +1,27 @@
 import React, { useState, useRef } from 'react';
 import axios from 'axios';
 
-const { SearchBar, SearchBarWrapper } = require('./clientsStyles')
-function Clients() {
+import clientList from '../components/clientList.jsx'
+const { SearchBar, CardWrapper, ClientWrapper } = require('./clientsStyles')
 
+function Clients() {
+  const [clientData, setClientData] = useState([])
+  const list = [2019,2020,2022,2021,2030,2025]
   const handleGetClients = () => {
-    axios.get('http://54.151.69.19:5252/getClients', { params: { list: [2019, 2020] } })
-      .then(({ data }) => console.log(data))
+    //testing for database searching
+    axios.get('http://54.151.69.19:5252/getClients', { params: { list: list } })
+      .then(({ data }) => setClientData(data))
       .catch((err) => console.log(err))
   }
 
   return <>
-    <SearchBarWrapper >
-      <SearchBar />
+    <ClientWrapper>
       <button onClick={handleGetClients}>getClients</button>
-    </SearchBarWrapper>
+        <SearchBar />
+      <CardWrapper>
+        {clientData.map((client) => (clientList(client)))}
+      </CardWrapper>
+    </ClientWrapper>
   </>
 }
 
