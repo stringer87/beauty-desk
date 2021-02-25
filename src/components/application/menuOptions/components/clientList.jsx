@@ -1,7 +1,7 @@
 import React from 'react';
 const {ListWrapper} = require('../styledComponents/clientListCard')
 function clientList (client){
-  return (<ListWrapper key={client._id}>
+  return (<ListWrapper key={client._id} id={`${client._id}`}>
     <span>{client.firstName} {client.lastName}</span>
   </ListWrapper>)
 }
